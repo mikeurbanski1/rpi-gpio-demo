@@ -1,7 +1,7 @@
 from gpiozero import Button, LED
 
-BUTTON_PIN = 23
-LED_PIN = 24
+BUTTON_PIN = 18
+LED_PIN = 17
 
 
 def create_hardware() -> tuple[Button, LED]:
